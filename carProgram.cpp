@@ -1,15 +1,15 @@
 #include <iostream>
 #include <string>
 using namespace std;
-// 1.Define a class named Car
+/* 1.Define a class named Car*/
 class Car {
 public:
-// 2. Public data members 
+/* 2. Public data members*/
     string brand;
     string model;
     float price;
     int mileage;
-//3: Public member function to display car details
+/*3: Public member function to display car details*/
     void display() {
         cout << "Brand: " << brand << endl;
         cout << "Model: " << model << endl;
